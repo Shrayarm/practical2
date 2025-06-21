@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif
+    line-height:  1.6x;
+    background-color: white;
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    background-color: rgb(200, 197, 208);
+    color: rgb(86, 128, 75);
+    padding:20px;
+    text-align: center;
+}
+
+
+.infographic{
+     display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+     gap: 20px;
+     padding: 20px;
+}
+
+.fact{
+    background-color: rgb(241, 240, 239);
+    padding:15px;
+    border-radius:8px;
+}
+
+
+.fact h2{
+    color: rgb(5, 75, 77);
+}
+
+.fact p{
+    color:black;
+}
+
+footer{
+    background-color: aqua;
+    color: rgb(5, 78, 142);
+    padding: 10px;
+    text-align: center;
+}
